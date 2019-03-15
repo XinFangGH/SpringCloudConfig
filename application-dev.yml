@@ -11,3 +11,6 @@ spring:
     username: xfanread
     password: Fdxdz2017
     type: com.alibaba.druid.pool.DruidDataSource
+
+
+foo: 7777
