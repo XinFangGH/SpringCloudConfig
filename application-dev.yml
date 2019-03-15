@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    alicloud:
+      ans:
+        server-port: 8080
+        server-list: 127.0.0.1
+  application:
+    name: book-service
+  datasource:
+    url:  jdbc:mysql://47.104.176.244:3306/xfanread
+    driver-class-name: com.mysql.jdbc.Driver
+    username: xfanread
+    password: Fdxdz2017
+    type: com.alibaba.druid.pool.DruidDataSource
