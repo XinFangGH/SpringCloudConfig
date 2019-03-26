@@ -3,7 +3,7 @@ spring:
     alicloud:
       ans:
         server-port: 8080
-        server-list: 127.0.0.1
+        server-list: 47.104.176.244
 
   datasource:
     url:  jdbc:mysql://47.104.176.244:3306/xfanread
