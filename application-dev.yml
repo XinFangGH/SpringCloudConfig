@@ -1,10 +1,4 @@
 spring:
-  cloud:
-    alicloud:
-      ans:
-        server-port: 8080
-        server-list: 47.104.176.244
-
   datasource:
     url:  jdbc:mysql://47.104.176.244:3306/xfanread
     driver-class-name: com.mysql.jdbc.Driver
@@ -12,5 +6,9 @@ spring:
     password: Fdxdz2017
     type: com.alibaba.druid.pool.DruidDataSource
 
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/
 
 foo: 7777
